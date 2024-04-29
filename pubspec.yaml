@@ -55,9 +55,6 @@ flutter:
         - asset: fonts/SF-Pro-Display-Medium.otf
         - asset: fonts/SF-Pro-Display-Bold.otf
         - asset: fonts/SF-Pro-Display-Light.otf
-        # - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
 
 flutter_gen:
   integrations:

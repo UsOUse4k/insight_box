@@ -5,6 +5,20 @@ class AuthPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          const Text(''),
+          const TextField(),
+          const TextField(),
+          const TextField(),
+          ElevatedButton(
+            onPressed: () {},
+            child: const Text(''),
+          ),
+        ],
+      ),
+    );
   }
 }
