@@ -1,10 +1,10 @@
 name: insight_box
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: '>=3.3.1 <4.0.0'
+  sdk: ">=3.3.1 <4.0.0"
 
 dependencies:
   flutter:
@@ -47,6 +47,17 @@ flutter:
 
   # assets:
   #   - assets/images/
+
+  fonts:
+    - family: SF Pro Display
+      fonts:
+        - asset: fonts/SF-Pro-Display-Regular.otf
+        - asset: fonts/SF-Pro-Display-Medium.otf
+        - asset: fonts/SF-Pro-Display-Bold.otf
+        - asset: fonts/SF-Pro-Display-Light.otf
+        # - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
 
 flutter_gen:
   integrations:
